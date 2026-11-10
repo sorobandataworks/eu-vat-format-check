@@ -1,0 +1,43 @@
+{
+  "author": "Soroban Data Works",
+  "description": "Format and check-digit (checksum) validation for EU VAT numbers in 11 countries. Format/checksum only — NOT a registration check (no VIES lookup).",
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "vat",
+    "vat-number",
+    "eu-vat",
+    "vies",
+    "checksum",
+    "check-digit",
+    "format-validation",
+    "tax"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "module": "./index.js",
+  "name": "eu-vat-format-check",
+  "scripts": {
+    "test": "node test/validate.test.mjs"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorobandataworks/eu-vat-format-check.git"
+  },
+  "homepage": "https://github.com/sorobandataworks/eu-vat-format-check#readme",
+  "bugs": {
+    "url": "https://github.com/sorobandataworks/eu-vat-format-check/issues"
+  }
+}
